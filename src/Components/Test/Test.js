@@ -1,20 +1,20 @@
-import { useState, useEffect } from "react";
-import ReactDOM from "react-dom/client";
+// import { useState, useEffect } from "react";
+// import ReactDOM from "react-dom/client";
 
-function Timer() {
-    const [count, setCount] = useState(0);
+// function Timer() {
+//     const [count, setCount] = useState(0);
 
-    useEffect(() => {
+//     useEffect(() => {
 
-        console.log("darshan");
+//         console.log("darshan");
 
-    }, [count]);
+//     }, [count]);
 
 
-    return <h1>I have rendered {count} times!</h1>;
-}
+//     return <h1>I have rendered {count} times!</h1>;
+// }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Timer />);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Timer />);
 
-export default Timer;
+// export default Timer;
